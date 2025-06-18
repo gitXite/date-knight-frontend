@@ -9,7 +9,10 @@ You can even choose the type of date you want to generate — from cozy and casu
 Are you ready to impress?
 
 ## 🌐 Tech Stack
-- 
+- Typescript
+- React (with Vite)
+- Axios
+- React Router
 
 ## 🚀 Getting Started
 
