@@ -9,10 +9,10 @@ You can even choose the type of date you want to generate — from cozy and casu
 Are you ready to impress?
 
 ## 🌐 Tech Stack
-- Typescript
-- React (with Vite)
-- Axios
-- React Router
+- Framework: Typescript & React (with Vite)
+- Styling: Tailwind CSS
+- HTTP Client: Axios
+- Routing: React Router
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,11 @@ Are you ready to impress?
 - Backend API (see [Date-Knight Backend](https://github.com/gitXite/date-knight-backend))
 
 ### Installation
-
+```bash
+git clone https://github.com/yourusername/date-knight-frontend.git
+cd date-knight-frontend
+npm install
+```
 
 ## ✨ Features
 Get a random, curated date spot in your city
