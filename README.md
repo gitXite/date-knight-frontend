@@ -21,7 +21,7 @@ Are you ready to impress?
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/date-knight-frontend.git
+git clone https://github.com/gitXite/date-knight-frontend.git
 cd date-knight-frontend
 npm install
 ```
