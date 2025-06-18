@@ -1,54 +1,41 @@
-# React + TypeScript + Vite
+# Date-Knight 💘⚔️
+## Frontend Repository
+Have you ever struggled to choose where to take your date? Date-Knight is here to rescue you!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+We provide a curated date generator with carefully selected activities and local spots in Oslo, Stavanger, Trondheim, and Bergen.
+With just the click of a button, you'll be sent to the best date spots in town.
 
-Currently, two official plugins are available:
+You can even choose the type of date you want to generate — from cozy and casual to adventurous and memorable.
+Are you ready to impress?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Tech Stack
+- 
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
+- Backend API (see [Date-Knight Backend](https://github.com/gitXite/date-knight-backend))
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Installation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Features
+Get a random, curated date spot in your city
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Filter by type of date
+
+Supports multiple cities in Norway
+
+Built for simplicity and fun!
+
+## 📍 Cities Covered
+#### Oslo
+
+#### Stavanger
+
+#### Trondheim
+
+#### Bergen
+
+## 📜 License
+MIT
