@@ -43,6 +43,3 @@ Built for simplicity and fun!
 #### Trondheim
 
 #### Bergen
-
-## 📜 License
-MIT
