@@ -1,10 +1,12 @@
-import dateKnightLogo from './assets/images/dateKnightLogo.png';
+import LandingPage from './pages/LandingPage';
 import './App.css';
 
 function App() {
-  return (
-    <img src={dateKnightLogo} alt='Logo' />
-  )
+	return (
+		<div>
+			<LandingPage />
+		</div>
+	)
 }
 
-export default App
+export default App;
