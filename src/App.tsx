@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import Layout from './layouts/Layout';
 import Header from './components/Header';
 import Landing from './pages/Landing';
 
@@ -7,10 +8,7 @@ import Landing from './pages/Landing';
 function App() {
     return (
         <Router>
-            <Header />
-            <Routes>
-                <Route path='/' element={<Landing />} />
-            </Routes>
+            <Layout />
         </Router>
     );
 }
