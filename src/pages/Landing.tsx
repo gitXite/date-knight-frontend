@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
+import CTAButton from '../components/CTAButton';
 import dateKnightLogo from '../assets/images/dateKnightLogo.png';
 
 function Landing({ onCTAClick }) {
@@ -32,7 +33,7 @@ function Landing({ onCTAClick }) {
                         <img src={dateKnightLogo} className='w-2/4'/>
                     </div>
                     <div>
-{/*                         Insert CTA button component */}
+                        <CTAButton handleCTAClick={handleCTAClick}/>
                     </div>
                 </div>
             )}
