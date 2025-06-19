@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Aspekta-350";
+  src: url("../src/assets/fonts/otf/Aspekta-350.otf");
+}
+@font-face {
+  font-family: "Aspekta-100";
+  src: url("../src/assets/fonts/otf/Aspekta-100.otf");
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
