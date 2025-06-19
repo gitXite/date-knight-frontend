@@ -5,7 +5,7 @@ type CTAButtonProps = {
 function CTAButton({ onClick }: CTAButtonProps) {
     return (
         <div>
-            <button onClick={handleCTAClick}>START</button>
+            <button onClick={onClick}>Start</button>
         </div>
     );
 }
