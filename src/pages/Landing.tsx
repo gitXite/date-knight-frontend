@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router';
 import CTAButton from '../components/CTAButton';
 import dateKnightLogo from '../assets/images/dateKnightLogo.png';
 
-type LandingProps = {
+export type LandingProps = {
     onCTAClick: () => void;
 };
 
