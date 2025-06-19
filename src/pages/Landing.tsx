@@ -21,7 +21,7 @@ function Landing({ onCTAClick }: LandingProps) {
     };
     
     return (
-        <div className='flex flex-col justify-center items-center h-screen w-screen'>
+        <div className='flex flex-col bg-white text-black dark:bg-gray-900 dark:text-white justify-center items-center h-screen w-screen'>
             {animateLogo ? (
                 <div>
                     <div>
