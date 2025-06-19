@@ -3,11 +3,7 @@ type CTAButtonProps = {
 };
 
 function CTAButton({ onClick }: CTAButtonProps) {
-    return (
-        <div>
-            <button onClick={onClick}>Start</button>
-        </div>
-    );
+    return <button onClick={onClick}>Start</button>;
 }
 
 
