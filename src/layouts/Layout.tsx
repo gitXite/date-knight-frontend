@@ -7,7 +7,7 @@ import Header from '../componentes/Header';
 
 function Layout() {
     const location = useLocation();
-    const isLanding = location.pathname === '/';
+    const isLanding: boolean = location.pathname === '/';
     const [showHeader, setShowHeader] = useState(!isLanding);
 
     return (
