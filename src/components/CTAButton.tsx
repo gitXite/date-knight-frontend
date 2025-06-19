@@ -1,4 +1,4 @@
-type CTAButtonProps = {
+export type CTAButtonProps = {
     onClick: () => void;
 };
 
