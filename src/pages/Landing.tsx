@@ -33,7 +33,7 @@ function Landing({ onCTAClick }) {
                         <img src={dateKnightLogo} className='w-2/4'/>
                     </div>
                     <div>
-                        <CTAButton handleCTAClick={handleCTAClick}/>
+                        <CTAButton handleCTAClick={handleCTAClick} />
                     </div>
                 </div>
             )}
