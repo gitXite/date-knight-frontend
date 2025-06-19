@@ -17,7 +17,7 @@ function Landing({ onCTAClick }: LandingProps) {
         setTimeout(() => {
             onCTAClick();
             navigate('/start');
-        }, 500);
+        }, 500); // set ms to match animation duration
     };
     
     return (
