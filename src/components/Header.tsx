@@ -1,6 +1,12 @@
+import ThemeToggle from './ThemeToggle';
+
 function Header() {
     return (
-        <div className='h-20 bg-slate-200'></div>
+        <div className='flex h-20 w-full'>
+            <div className='justify-self-end'>
+                <ThemeToggle />
+            </div>
+        </div>
     )
 }
 
