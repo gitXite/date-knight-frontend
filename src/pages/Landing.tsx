@@ -32,8 +32,8 @@ function Landing({ onCTAClick }: LandingProps) {
                     </div>
                 </div>
             ) : (
-                <div>
-                    <div className='flex flex-col items-center w-2/4'>
+                <div className='flex flex-col items-center w-2/4'>
+                    <div>
                         <img src={dateKnightLogo} className='w-2/4'/>
                     </div>
                     <div>
