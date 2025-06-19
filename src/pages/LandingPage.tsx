@@ -1,7 +1,11 @@
+import dateKnightLogo from '../assets/images/dateKnightLogo.png';
+
 function LandingPage() {
     return (
-        <div className="bg-slate-800 min-h-screen min-w-screen flex items-center justify-center text-white">
-            Background should be slate-800
+        <div className='flex flex-col justify-center items-center h-screen w-screen'>
+            <div className='flex flex-col items-center w-2/4'>
+                <img src={dateKnightLogo} className='w-2/4'/>
+            </div>
         </div>
     )
 }
