@@ -1,13 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Header from './components/Header';
-import LandingPage from './pages/LandingPage';
+import Landing from './pages/Landing';
+
 
 function App() {
     return (
-        <div>
+        <Router>
             <Header />
-            <LandingPage />
-        </div>
-    )
+            <Routes>
+                <Route path='/' element={<Landing />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
