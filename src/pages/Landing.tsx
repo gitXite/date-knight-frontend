@@ -3,11 +3,15 @@ import { useNavigate } from 'react-router';
 import CTAButton from '../components/CTAButton';
 import dateKnightLogo from '../assets/images/dateKnightLogo.png';
 
-function Landing({ onCTAClick }) {
+type LandingProps = {
+    onCTAClick: () => void;
+};
+
+function Landing({ onCTAClick }: LandingProps) {
     const [animateLogo, setAnimateLogo] = useState(false);
     const navigate = useNavigate();
 
-    const handleCTAClick = () => {
+    const handleCTAClick = (): void => {
         setAnimateLogo(true);
 
         setTimeout(() => {
@@ -33,7 +37,7 @@ function Landing({ onCTAClick }) {
                         <img src={dateKnightLogo} className='w-2/4'/>
                     </div>
                     <div>
-                        <CTAButton handleCTAClick={handleCTAClick} />
+                        <CTAButton onClick={handleCTAClick} />
                     </div>
                 </div>
             )}
