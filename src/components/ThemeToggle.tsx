@@ -12,7 +12,7 @@ function ThemeToggle() {
             document.documentElement.classList.add('dark');
         } else {
             setIsDarkMode = false;
-            document.documentElement.classList.remove('dark';
+            document.documentElement.classList.remove('dark');
         }
     }, []);
 
