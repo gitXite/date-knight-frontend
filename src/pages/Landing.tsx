@@ -21,24 +21,16 @@ function Landing({ onCTAClick }: LandingProps) {
     };
     
     return (
-        <div className='flex flex-col bg-white text-black dark:bg-gray-900 dark:text-white justify-center items-center h-screen w-screen'>
+        <div className='flex flex-col bg-white text-black dark:bg-gray-900 dark:text-white justify-center place-items-center h-screen w-screen'>
             {animateLogo ? (
                 <div>
-                    <div>
-{/*                         Insert animated logo with framer motion */}
-                    </div>
-                    <div>
-{/*                         Insert animation for button fade-out */}
-                    </div>
+{/*                 Insert animated logo with framer motion */}
+{/*                 Insert animation for button fade-out */}
                 </div>
             ) : (
                 <div className='flex flex-col items-center w-2/4'>
-                    <div>
-                        <img src={dateKnightLogo} className='w-2/4'/>
-                    </div>
-                    <div>
-                        <CTAButton onClick={handleCTAClick} />
-                    </div>
+                    <img src={dateKnightLogo} className='w-2/4'/>
+                    <CTAButton onClick={handleCTAClick} />
                 </div>
             )}
         </div>
