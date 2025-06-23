@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useLocation } from 'react-router';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from '../pages/Landing';
-import Header from '../componentes/Header';
+import Header from '../components/Header';
 
 
 function Layout() {
